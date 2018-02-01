@@ -6,5 +6,7 @@ package com.learning.flink.examples
 object HelloWorld {
   def main(args: Array[String]): Unit = {
     println("Hello")
+    println(-1 >>> 2)
+    println(-1 >> 2)
   }
 }
